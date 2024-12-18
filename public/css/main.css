@@ -1,0 +1,93 @@
+:root{
+  --main : rgb(65, 141, 223);
+  --bg : rgb(222, 235, 255);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: white;
+}
+
+input{
+  border: 1px solid var(--main);
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+select{
+  border: 1px solid var(--main);
+  padding: 10px 20px;
+  width: 245px;
+  border-radius: 7px;
+}
+
+button {
+  background-color: var(--main);
+  color: white;
+  border: 1px solid var(--main);
+  padding: 7px 15px;
+  min-width: 70px;
+  border-radius: 7px;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: var(--main);
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.err{
+  background-color: rgb(228, 210, 210);
+  border: 1px solid red;
+  color: red;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.del-btn{
+  background-color: red;
+  border: 1px solid red;
+}
+
+.del-btn:hover{
+  background-color: transparent;
+  color: red;
+}
+
+.btn{
+  background-color: var(--main);
+  color: white;
+  border-radius: 100px;
+  width: 200px;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 5px;
+  border: 1px solid var(--main);
+  transition: all .2s ease-in-out;
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: var(--main);
+}
+
+.bluelink{
+  color: rgb(48, 127, 216);
+  text-decoration: underline;
+}
+
+.disabled{
+  opacity: .5;
+  cursor: not-allowed;
+}
